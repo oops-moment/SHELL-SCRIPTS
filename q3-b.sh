@@ -1,0 +1,2 @@
+read file_name #This command stores the value enetered by user into variable file_name
+ sed -n '$=' $file_name # sed command is used and -n tells the sed to count number of lines and file name is passed as argument
